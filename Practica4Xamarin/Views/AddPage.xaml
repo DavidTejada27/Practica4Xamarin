@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica4Xamarin.Views.AddPage">
+    
+    <StackLayout Orientation="Vertical">
+        <Entry Text="{Binding Name}"  Placeholder="Name" HorizontalOptions="FillAndExpand"/>
+        <Entry Text="{Binding Number}"  Placeholder="Number" HorizontalOptions="FillAndExpand"/>
+        <Button Text="Ok" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Red" Command="{Binding OkContact}"/>
+
+    </StackLayout>
+</ContentPage>
